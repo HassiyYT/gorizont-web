@@ -1,0 +1,25 @@
+{
+  "name": "web-labs",
+  "version": "0.1.0",
+  "description": "web-labs",
+  "main": "index.js",
+  "scripts": {
+    "lab1": "node lab1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassiyYT/web-labs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hassiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HassiyYT/web-labs/issues"
+  },
+  "homepage": "https://github.com/HassiyYT/web-labs#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
