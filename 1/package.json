@@ -1,0 +1,25 @@
+{
+  "name": "lab1",
+  "version": "0.1.0",
+  "description": "lab #1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassiyYT/web-labs.git"
+  },
+  "keywords": [
+    "lodash"
+  ],
+  "author": "Hassiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HassiyYT/web-labs/issues"
+  },
+  "homepage": "https://github.com/HassiyYT/web-labs#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
