@@ -1,3 +1,5 @@
+use actix_web::web;
+use chrono::Utc;
 async fn create_post(post: web::Json<CreatePost>, pool: web::Data<Pool>, user: web::ReqData<User>) -> HttpResponse {
     use schema::posts::dsl::*;
 
