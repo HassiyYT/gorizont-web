@@ -1,4 +1,4 @@
-table! {
+diesel::table! {
     users (id) {
         id -> Uuid,
         username -> Varchar,
@@ -8,7 +8,7 @@ table! {
     }
 }
 
-table! {
+diesel::table! {
     posts (id) {
         id -> Uuid,
         user_id -> Uuid,

@@ -1,4 +1,4 @@
-use serde::{Deserialize, Serialize};
+use serde::{Serialize, Deserialize};
 use diesel::prelude::*;
 use uuid::Uuid;
 
@@ -20,4 +20,24 @@ pub struct Post {
     pub published: bool,
     pub created_at: chrono::NaiveDateTime,
     pub updated_at: chrono::NaiveDateTime,
+}
+
+#[derive(Deserialize)]
+struct RegisterUser {
+    username: String,
+    email: String,
+    password: String,
+}
+
+#[derive(Deserialize)]
+struct LoginUser {
+    email: String,
+    password: String,
+}
+
+
+#[derive(Deserialize)]
+struct CreatePost {
+    title: String,
+    body: String,
 }
